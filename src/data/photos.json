@@ -1,0 +1,162 @@
+[
+    {
+        "title": "Sermon of St Mark in Alexandria",
+        "painter": "BELLINI, Giovanni",
+        "img": "IMG_6398",
+        "id": 1,
+        "location": "Milan",
+        "locationUrl": "https://pinacotecabrera.org/en/collezione-online/opere/saint-mark-preaching-in-a-square-of-alexandria-in-egypt/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_6399",
+        "id": 2,
+        "location": "Milan",
+        "locationUrl": "https://pinacotecabrera.org/en/visit/"
+    },
+    {
+        "title": "View of the Grand Canal towards the Punta della Dogana from Campo San Vio",
+        "painter": "Canaletto (Giovanni Antonio Canal)",
+        "img": "IMG_6437",
+        "id": 3,
+        "location": "Milan",
+        "locationUrl": "https://pinacotecabrera.org/en/collezione-online/opere/view-of-the-grand-canal-looking-toward-the-punta-della-dogana/"
+    },
+    {
+        "title": "The Kiss",
+        "painter": "Francesco Hayez",
+        "img": "IMG_6452",
+        "id": 4,
+        "location": "Milan",
+        "locationUrl": "https://pinacotecabrera.org/en/collezione-online/opere/the-kiss/"
+    },
+    {
+        "title": "Triste Presentimento",
+        "painter": "Gerolamo Induno",
+        "img": "IMG_6454",
+        "id": 5,
+        "location": "Milan",
+        "locationUrl": "https://pinacotecabrera.org/en/collezione-online/opere/triste-presentimento/"
+    },
+    {
+        "title": "The Sorrows of Ossian",
+        "painter": "Károly Kisfaludy",
+        "img": "IMG_8325",
+        "id": 6,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_8332",
+        "id": 7,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "Landscape Near Tivoli",
+        "painter": "Károly Markó the Elder",
+        "img": "IMG_8334",
+        "id": 8,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_8345",
+        "id": 9,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "The Balloon",
+        "painter": "Pál Szinyei Merse",
+        "img": "IMG_8366",
+        "id": 10,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_8370",
+        "id": 11,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "Beauty, Wealth and Spirit",
+        "painter": "László Tóth",
+        "img": "IMG_8372",
+        "id": 12,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "Green Donkey",
+        "painter": "Sándor Bortnyik",
+        "img": "IMG_8402",
+        "id": 13,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_8418",
+        "id": 15,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_8421",
+        "id": 16,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "",
+        "painter": "",
+        "img": "IMG_8424",
+        "id": 17,
+        "location": "Budapest",
+        "locationUrl": "https://en.mng.hu/"
+    },
+    {
+        "title": "St. John the Baptist",
+        "painter": "Bouts, Dieric the Younger",
+        "img": "IMG_8770",
+        "id": 18,
+        "location": "Munich",
+        "locationUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek"
+    },
+    {
+        "title": "Park landscape",
+        "painter": "Hubert Robert",
+        "img": "IMG_8807",
+        "id": 19,
+        "location": "Munich",
+        "locationUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek"
+    },
+    {
+        "title": "Plain near Auvers",
+        "painter": "Vincent van Gogh",
+        "img": "IMG_8833",
+        "id": 20,
+        "location": "Munich",
+        "locationUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek"
+    },
+    {
+        "title": "Italia and Germania",
+        "painter": "Friedrich Overbeck",
+        "img": "IMG_8848",
+        "id": 21,
+        "location": "Munich",
+        "locationUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek"
+    }
+]
