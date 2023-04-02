@@ -1,7 +1,7 @@
-import { ThemeProvider } from '@emotion/react';
-import './app.less';
-import { lightTheme } from './utils/themes';
-import Paintings from './views/Paintings';
+import { ThemeProvider } from "@emotion/react";
+import "./app.less";
+import { lightTheme } from "./utils/themes";
+import Paintings from "./views/Paintings";
 
 function App() {
   return (

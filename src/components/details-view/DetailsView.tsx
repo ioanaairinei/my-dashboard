@@ -1,22 +1,27 @@
-import _ from 'lodash';
-import { IconButton } from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
-import IMAGES, { type ImagesKey } from '../../assets/images/Images';
-import './details-view.less';
-import { useEffect, useState } from 'react';
-import { callChatGPTCompletion } from '../../services/chat-gpt-service';
+import _ from "lodash";
+import { IconButton } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
+import IMAGES, { type ImagesKey } from "../../assets/images/Images";
+import "./details-view.less";
+import { useEffect, useState } from "react";
+import { callChatGPTCompletion } from "../../services/chat-gpt-service";
 
 export interface DetailsViewProps {
-  title: string
-  author: string
-  img: ImagesKey
-  location: string
-  locationUrl?: string
-  onClose: () => void
+  title: string;
+  author: string;
+  img: ImagesKey;
+  location: string;
+  locationUrl?: string;
+  onClose: () => void;
 }
 
 function DetailsView({
-  title, author, img, location, locationUrl, onClose,
+  title,
+  author,
+  img,
+  location,
+  locationUrl,
+  onClose,
 }: DetailsViewProps) {
   const [paitingDescription, setPaintingDescription] = useState<any>({
     fetchInProgress: true,
@@ -43,7 +48,7 @@ function DetailsView({
                         })
                 }, 2000); */
       } catch (err) {
-        console.log('Error occured when fetching info.');
+        console.log("Error occured when fetching info.");
       }
     }
 
@@ -53,40 +58,38 @@ function DetailsView({
   return (
     <div className="details-view-container">
       <div className="image-details-view-container">
-        <img
-          className="image-details-view"
-          src={IMAGES[img]}
-          alt={title}
-        />
+        <img className="image-details-view" src={IMAGES[img]} alt={title} />
       </div>
       <div className="content-details-view">
         <div className="close-button">
-          <IconButton aria-label="close" size="small" color="secondary" onClick={onClose}>
+          <IconButton
+            aria-label="close"
+            size="small"
+            color="secondary"
+            onClick={onClose}
+          >
             <CloseIcon />
           </IconButton>
         </div>
-        {paitingDescription.fetchInProgress
-          ? (
-            <div className="description-placeholder">
-              Do you know this paiting?
+        {paitingDescription.fetchInProgress ? (
+          <div className="description-placeholder">
+            Do you know this paiting?
+          </div>
+        ) : (
+          <div className="description">
+            <div>
+              <h3>{title}</h3>
+              <h4>{author}</h4>
             </div>
-          )
-          : (
-            <div className="description">
-              <div>
-                <h3>{title}</h3>
-                <h4>{author}</h4>
-              </div>
-              <p>
-                {paitingDescription.description}
-              </p>
-              <div className="description-links">
-                Can be admired in
-                {' '}
-                <a href={locationUrl} target="_blank" rel="noreferrer">{location}</a>
-              </div>
+            <p>{paitingDescription.description}</p>
+            <div className="description-links">
+              Can be admired in{" "}
+              <a href={locationUrl} target="_blank" rel="noreferrer">
+                {location}
+              </a>
             </div>
-          )}
+          </div>
+        )}
       </div>
     </div>
   );

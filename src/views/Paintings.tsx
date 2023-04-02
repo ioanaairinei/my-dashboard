@@ -1,17 +1,17 @@
-import { useState } from 'react';
-import { type ImagesKey } from '../assets/images/Images';
-import CardsContainer from '../components/cards-container/CardsContainer';
-import DetailsView from '../components/details-view/DetailsView';
-import photos from '../data/photos.json';
-import './paintings.less';
+import { useState } from "react";
+import { type ImagesKey } from "../assets/images/Images";
+import CardsContainer from "../components/cards-container/CardsContainer";
+import DetailsView from "../components/details-view/DetailsView";
+import photos from "../data/photos.json";
+import "./paintings.less";
 
 export interface Photo {
-  id: number
-  title: string
-  painter: string
-  location: string
-  locationUrl: string
-  img: string
+  id: number;
+  title: string;
+  painter: string;
+  location: string;
+  locationUrl: string;
+  img: string;
 }
 
 function Paintings() {
@@ -28,17 +28,18 @@ function Paintings() {
 
   return (
     <div className="paintings-container">
-      {(activePainting == null) ? <CardsContainer onCardClick={onClickPhotoCard} photos={photos} />
-        : (
-          <DetailsView
-            title={activePainting.title}
-            author={activePainting.painter}
-            img={activePainting.img as ImagesKey}
-            location={activePainting.location}
-            locationUrl={activePainting.locationUrl}
-            onClose={onCloseDetailedView}
-          />
-        )}
+      {activePainting == null ? (
+        <CardsContainer onCardClick={onClickPhotoCard} photos={photos} />
+      ) : (
+        <DetailsView
+          title={activePainting.title}
+          author={activePainting.painter}
+          img={activePainting.img as ImagesKey}
+          location={activePainting.location}
+          locationUrl={activePainting.locationUrl}
+          onClose={onCloseDetailedView}
+        />
+      )}
     </div>
   );
 }
