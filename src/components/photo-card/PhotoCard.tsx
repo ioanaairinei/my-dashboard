@@ -1,31 +1,31 @@
-import { useState } from 'react';
-import IMAGES, { ImagesKey } from '../../assets/images/Images';
+import IMAGES, { type ImagesKey } from '../../assets/images/Images';
 import './photo-card.less';
 
 export interface PhotoCardProps {
-    title: string,
-    id: number,
-    imgSrc: ImagesKey,
-    painter: string,
-    onClick: (id: number) => void,
+  title: string
+  id: number
+  imgSrc: ImagesKey
+  painter: string
+  onClick: (id: number) => void
 }
 
-const PhotoCard = ({id, title, imgSrc, painter, onClick}: PhotoCardProps) => {
+function PhotoCard({
+  id, title, imgSrc, painter, onClick,
+}: PhotoCardProps) {
+  const imageSrc: ImagesKey = imgSrc;
 
-    const imageSrc: ImagesKey = imgSrc;
-
-    return (
-        <div className="photo-card-container" onClick={() => onClick(id)}>
-            <img 
-            className="photo-card-image" 
-            src={IMAGES[imageSrc]} 
-            alt={title} 
-            />
-            <div className="middle">
-                <div className="text">{`${title}\n\n${painter}`}</div>
-            </div>
-        </div>
-    )
+  return (
+    <div className="photo-card-container" role="button" tabIndex={0} onClick={() => { onClick(id); }}>
+      <img
+        className="photo-card-image"
+        src={IMAGES[imageSrc]}
+        alt={title}
+      />
+      <div className="middle">
+        <div className="text">{`${title}\n\n${painter}`}</div>
+      </div>
+    </div>
+  );
 }
 
 export default PhotoCard;
