@@ -158,5 +158,85 @@
     "id": 21,
     "location": "Munich",
     "locationUrl": "https://www.pinakothek.de/en/visit/alte-pinakothek"
+  },
+  {
+    "title": "Portrait of a Girl",
+    "painter": "Nicolae Grigorescu",
+    "img": "IMG_9235",
+    "id": 22,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Women in a Landscape",
+    "painter": "Theodor Pallady",
+    "img": "IMG_9259",
+    "id": 23,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Shipyard",
+    "painter": "Agostino Tassi",
+    "img": "IMG_9266",
+    "id": 24,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Portrait of a Girl with a Head Scarf",
+    "painter": "Nicolae Grigorescu",
+    "img": "IMG_9274",
+    "id": 25,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Peasant Girl in a Hay Field",
+    "painter": "Nicolae Grigorescu",
+    "img": "IMG_9282",
+    "id": 26,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "At the Fair",
+    "painter": "Aurel Vintilescu",
+    "img": "IMG_9301",
+    "id": 27,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Street",
+    "painter": "Georg Dehn",
+    "img": "IMG_9305",
+    "id": 28,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Choir",
+    "painter": "Hedwig Mechle Grossmann",
+    "img": "IMG_9312",
+    "id": 29,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Thais in Hell",
+    "painter": "Gustave Courtois",
+    "img": "IMG_9321",
+    "id": 30,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Campo di Fiori Market",
+    "painter": "Pio Joris",
+    "img": "IMG_9331",
+    "id": 31,
+    "location": "Bucharest",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
   }
 ]

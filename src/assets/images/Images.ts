@@ -19,6 +19,16 @@ const IMAGES = {
   IMG_8807: new URL("./IMG_8807.jpg", import.meta.url).href,
   IMG_8833: new URL("./IMG_8833.jpg", import.meta.url).href,
   IMG_8848: new URL("./IMG_8848.jpg", import.meta.url).href,
+  IMG_9235: new URL("./IMG_9235.jpeg", import.meta.url).href,
+  IMG_9259: new URL("./IMG_9259.jpeg", import.meta.url).href,
+  IMG_9266: new URL("./IMG_9266.jpeg", import.meta.url).href,
+  IMG_9274: new URL("./IMG_9274.jpeg", import.meta.url).href,
+  IMG_9282: new URL("./IMG_9282.jpeg", import.meta.url).href,
+  IMG_9301: new URL("./IMG_9301.jpeg", import.meta.url).href,
+  IMG_9305: new URL("./IMG_9305.jpeg", import.meta.url).href,
+  IMG_9312: new URL("./IMG_9312.jpeg", import.meta.url).href,
+  IMG_9321: new URL("./IMG_9321.jpeg", import.meta.url).href,
+  IMG_9331: new URL("./IMG_9331.jpeg", import.meta.url).href,
 };
 
 export type ImagesKey = keyof typeof IMAGES;
