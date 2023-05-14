@@ -3,7 +3,7 @@ import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import IMAGES, { type ImagesKey } from "../../assets/images/Images";
 import "./details-view.less";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { callChatGPTCompletion } from "../../services/chat-gpt-service";
 
 export interface DetailsViewProps {
@@ -27,8 +27,13 @@ function DetailsView({
     fetchInProgress: true,
     description: undefined,
   });
+  const imageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (imageRef.current) {
+      imageRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
+    }
+
     async function getInfoFromChatGPT() {
       const chatGPTPrompt = `Tell me something about the paiting ${title} by ${author} :`;
       try {
@@ -57,7 +62,7 @@ function DetailsView({
 
   return (
     <div className="details-view-container">
-      <div className="image-details-view-container">
+      <div className="image-details-view-container" ref={imageRef}>
         <img className="image-details-view" src={IMAGES[img]} alt={title} />
       </div>
       <div className="content-details-view">

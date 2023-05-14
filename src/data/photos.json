@@ -238,5 +238,157 @@
     "id": 31,
     "location": "Bucharest",
     "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Unknown",
+    "painter": "Unknown",
+    "img": "IMG_0119",
+    "id": 32,
+    "location": "Barcelona",
+    "locationUrl": ""
+  },
+  {
+    "title": "Annunciation",
+    "painter": "Joan de Borgonya",
+    "img": "IMG_0140",
+    "id": 33,
+    "location": "Barcelona`",
+    "locationUrl": "https://www.museunacional.cat/en"
+  },
+  {
+    "title": "Virgin and Child with the Infant Saint John",
+    "painter": "Joan de Borgonya",
+    "img": "IMG_0148",
+    "id": 34,
+    "location": "Barcelona",
+    "locationUrl": "https://www.museunacional.cat/en"
+  },
+  {
+    "title": "Saint Cecilia",
+    "painter": "Giambattista Tiepolo and Giandomenico Tiepolo",
+    "img": "IMG_0171",
+    "id": 35,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Portrait of Louise Francoise de Bourbon, mademoiselle de Nantes",
+    "painter": "Francois de Troy",
+    "img": "IMG_0178",
+    "id": 36,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Public Exhibition of a Picture",
+    "painter": "Joan Ferrer Miró",
+    "img": "IMG_0202",
+    "id": 37,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "The Hour of the Ghost",
+    "painter": "Joaquim Pla Janini",
+    "img": "IMG_0203",
+    "id": 39,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Public Exhibition of a Picture",
+    "painter": "Joaquim Pla Janini",
+    "img": "IMG_0205",
+    "id": 40,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Public Exhibition of a Picture",
+    "painter": "Joan Ferrer Miró",
+    "img": "IMG_0206",
+    "id": 41,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Choosing Prints",
+    "painter": "Josep Duran",
+    "img": "IMG_0210",
+    "id": 42,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Portrait of Amèlia de Vilanova i Nadal",
+    "painter": "Federico de Mandrazo",
+    "img": "IMG_0219",
+    "id": 43,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "A Romance",
+    "painter": "Santiago Rusiñol",
+    "img": "IMG_0230",
+    "id": 44,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Plein air",
+    "painter": "Ramon Casas",
+    "img": "IMG_0235",
+    "id": 45,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Dream",
+    "painter": "Joan Brull",
+    "img": "IMG_0255",
+    "id": 46,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Flutist",
+    "painter": "Agustí Pisaca",
+    "img": "IMG_0258",
+    "id": 47,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "The Retable of Love",
+    "painter": "Julio Romero de Torres",
+    "img": "IMG_0267",
+    "id": 48,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Dining Room",
+    "painter": "Pere Torné Esquius",
+    "img": "IMG_0270",
+    "id": 49,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "Portrait of Joan Maria Torres",
+    "painter": "Salvador Dali",
+    "img": "IMG_0277",
+    "id": 50,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
+  },
+  {
+    "title": "The Newlyweds",
+    "painter": "Olga Sacharoff",
+    "img": "IMG_0280",
+    "id": 51,
+    "location": "Barcelona",
+    "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
   }
 ]
