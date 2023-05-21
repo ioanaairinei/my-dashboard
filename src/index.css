@@ -12,6 +12,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /*Custom properties*/
+  --focus-outline-color-1: red;
+  --focus-outline-color-2: blue;
+  --focus-outline-color-3: green;
+  --focus-outline-color-4: yellow;
+
+  --focus-outline-color: var(--focus-outline-color-1);
 }
 
 /*
