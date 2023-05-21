@@ -1,4 +1,5 @@
 import IMAGES, { type ImagesKey } from "../../assets/images/Images";
+import ImageContainer from "../image-container/image-container";
 import "./photo-card.less";
 
 export interface PhotoCardProps {
@@ -21,7 +22,12 @@ function PhotoCard({ id, title, imgSrc, painter, onClick }: PhotoCardProps) {
         onClick(id);
       }}
     >
-      <img className="photo-card-image" src={IMAGES[imageSrc]} alt={title} />
+      <ImageContainer
+        className="photo-card-image"
+        src={IMAGES[imageSrc]}
+        altText={title}
+        thumb={IMAGES[imageSrc]}
+      />
       <div className="middle">
         <div className="text">{`${title}\n\n${painter}`}</div>
       </div>
