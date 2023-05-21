@@ -1,6 +1,6 @@
 import React, { ReactHTMLElement, useRef, useState } from "react";
 import "./image-container.less";
-import useIntersectionObserver from "../../hooks/use-intersection-observer";
+import useIntersectionObserver from "../../utils/hooks/use-intersection-observer";
 import Image, { ImageProps } from "./image";
 
 export interface ImageContainerProps extends ImageProps {
