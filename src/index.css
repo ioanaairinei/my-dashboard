@@ -14,12 +14,30 @@
   -webkit-text-size-adjust: 100%;
 
   /*Custom properties*/
-  --focus-outline-color-1: red;
-  --focus-outline-color-2: blue;
-  --focus-outline-color-3: green;
-  --focus-outline-color-4: yellow;
+  --current-focus-outline-color-1: red;
+  --current-focus-outline-color-2: blue;
+  --current-focus-outline-color-3: green;
+  --current-focus-outline-color-4: yellow;
+  --current-focus-outline-color: var(--focus-outline-color-1);
+  --current-background-image: var(--dark-background-image);
+  --current-details-view-border-color: var(--dark-details-view-border-color);
+  --current-details-view-text-shadow-color: var(
+    --dark-details-view-text-shadow-color
+  );
 
-  --focus-outline-color: var(--focus-outline-color-1);
+  /*Light theme*/
+  --light-background-image: url("./assets/images/bernard-hermant-hQ3WZnY3yZ0-unsplash.jpg");
+  --light-details-view-border-color: black;
+  --light-details-view-text-shadow-color: black;
+  --light-focus-outline-color-1: red;
+  --light-focus-outline-color-2: blue;
+  --light-focus-outline-color-3: green;
+  --light-focus-outline-color-4: yellow;
+
+  /*Dark theme*/
+  --dark-background-image: url("./assets/images/black-texture-955.jpg");
+  --dark-details-view-border-color: #e0e0e0;
+  --dark-details-view-text-shadow-color: #e0e0e0;
 }
 
 /*
