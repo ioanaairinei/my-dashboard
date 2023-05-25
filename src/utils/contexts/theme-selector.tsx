@@ -7,13 +7,14 @@ export interface ThemeProviderProps {
 
 const ThemeSelectorContext = React.createContext({
   themeName: "dark",
+  toggleTheme: () => {},
 });
 
 const ThemeSelectorProvider = ({ children }: ThemeProviderProps) => {
   const [theme, setTheme] = useState("dark");
 
-  const selectTheme = (theme: string) => {
-    setTheme(theme === "dark" ? "light" : "dark");
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
   };
 
   useEffect(() => {
@@ -21,7 +22,9 @@ const ThemeSelectorProvider = ({ children }: ThemeProviderProps) => {
   }, [theme]);
 
   return (
-    <ThemeSelectorContext.Provider value={{ themeName: theme }}>
+    <ThemeSelectorContext.Provider
+      value={{ themeName: theme, toggleTheme: toggleTheme }}
+    >
       {children}
     </ThemeSelectorContext.Provider>
   );

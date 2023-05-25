@@ -61,7 +61,7 @@ function DetailsView({
   }, []);
 
   return (
-    <div className="details-view-container">
+    <div className="details-view-container" id="details-view">
       <div className="image-details-view-container" ref={imageRef}>
         <img className="image-details-view" src={IMAGES[img]} alt={title} />
       </div>

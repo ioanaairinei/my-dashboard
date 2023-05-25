@@ -10,7 +10,7 @@ interface CardsContainerProps {
 
 function CardsContainer({ onCardClick, photos }: CardsContainerProps) {
   return (
-    <div className="cards-container-class">
+    <div className="cards-container-class" id="cards-container">
       {photos.map((photo) => (
         <PhotoCard
           key={photo.id}

@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,25 +19,31 @@
   --current-focus-outline-color-3: green;
   --current-focus-outline-color-4: yellow;
   --current-focus-outline-color: var(--focus-outline-color-1);
-  --current-background-image: var(--dark-background-image);
+  --current-background-color: var(--dark-background-color);
   --current-details-view-border-color: var(--dark-details-view-border-color);
   --current-details-view-text-shadow-color: var(
     --dark-details-view-text-shadow-color
   );
+  --current-nav-bar-background-color: var(--dark-nav-bar-background-color);
+  --current-nav-bar-links-color: var(--dark-nav-bar-links-color);
 
   /*Light theme*/
-  --light-background-image: url("./assets/images/bernard-hermant-hQ3WZnY3yZ0-unsplash.jpg");
-  --light-details-view-border-color: black;
-  --light-details-view-text-shadow-color: black;
+  --light-details-view-border-color: #a49e97;
+  --light-details-view-text-shadow-color: #a49e97;
   --light-focus-outline-color-1: red;
   --light-focus-outline-color-2: blue;
   --light-focus-outline-color-3: green;
   --light-focus-outline-color-4: yellow;
+  --light-background-color: #f7ebe7;
+  --light-nav-bar-background-color: #a49e97;
+  --light-nav-bar-links-color: #ffffff;
 
   /*Dark theme*/
-  --dark-background-image: url("./assets/images/black-texture-955.jpg");
-  --dark-details-view-border-color: #e0e0e0;
-  --dark-details-view-text-shadow-color: #e0e0e0;
+  --dark-details-view-border-color: #879693;
+  --dark-details-view-text-shadow-color: #879693;
+  --dark-background-color: #0a2d2e;
+  --dark-nav-bar-background-color: #879693;
+  --dark-nav-bar-links-color: #0a2d2e;
 }
 
 /*

@@ -15,6 +15,7 @@ function PhotoCard({ id, title, imgSrc, painter, onClick }: PhotoCardProps) {
 
   return (
     <div
+      id={`photo-card-${id}`}
       className="photo-card-container"
       role="button"
       tabIndex={0}
