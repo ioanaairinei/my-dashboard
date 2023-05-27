@@ -25,6 +25,17 @@ const NavBar = () => {
         }s`;
       }
     });
+
+    const mouseScrollEventListener = () => {
+      if (isBurgerNavActive) {
+        setIsBurgerNavActive(false);
+      }
+    };
+
+    document.addEventListener("scroll", mouseScrollEventListener);
+
+    return () =>
+      document.removeEventListener("scroll", mouseScrollEventListener);
   }, [isBurgerNavActive]);
 
   return (
