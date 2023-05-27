@@ -1,5 +1,4 @@
 import { ThemeProvider } from "@emotion/react";
-import "./app.less";
 import { lightThemeMaterial } from "./utils/materialThemes";
 import { ThemeSelectorProvider } from "./utils/contexts/theme-selector";
 import LandingPage from "./views/landing-page/landing-page";
