@@ -4,6 +4,7 @@ import IconButton from "@mui/material/IconButton";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { ThemeSelectorContext } from "../../utils/contexts/theme-selector";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const { themeName, toggleTheme } = useContext(ThemeSelectorContext);
@@ -34,13 +35,13 @@ const NavBar = () => {
           className={`nav-bar-links ${isBurgerNavActive ? "nav-active" : ""}`}
         >
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="#">About</Link>
           </li>
           <li>
-            <a href="#">Paintings</a>
+            <Link to="/paintings">Paintings</Link>
           </li>
         </ul>
         <div

@@ -1,7 +1,7 @@
 import _ from "lodash";
 import { IconButton } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
-import IMAGES, { type ImagesKey } from "../../assets/images/Images";
+import { IMAGES, type ImagesKey } from "../../assets/images/Images";
 import "./details-view.less";
 import { useEffect, useRef, useState } from "react";
 import { callChatGPTCompletion } from "../../services/chat-gpt-service";

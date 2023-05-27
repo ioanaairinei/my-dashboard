@@ -26,24 +26,30 @@
   );
   --current-nav-bar-background-color: var(--dark-nav-bar-background-color);
   --current-nav-bar-links-color: var(--dark-nav-bar-links-color);
+  --current-landing-background-image: var(--dark-landing-background-image);
+  --current-logo-image: var(--dark-logo-image);
 
   /*Light theme*/
-  --light-details-view-border-color: #a49e97;
-  --light-details-view-text-shadow-color: #a49e97;
+  --light-details-view-border-color: #4d536f;
+  --light-details-view-text-shadow-color: #4d536f;
   --light-focus-outline-color-1: red;
   --light-focus-outline-color-2: blue;
   --light-focus-outline-color-3: green;
   --light-focus-outline-color-4: yellow;
-  --light-background-color: #f7ebe7;
-  --light-nav-bar-background-color: #a49e97;
-  --light-nav-bar-links-color: #ffffff;
+  --light-background-color: #f1f1f4;
+  --light-nav-bar-background-color: #c6c7d0;
+  --light-nav-bar-links-color: #4d536f;
+  --light-landing-background-image: url("./assets/images/mayrhofen_background.jpg");
+  --light-logo-image: url("./assets/images/logo.jpg");
 
   /*Dark theme*/
-  --dark-details-view-border-color: #879693;
-  --dark-details-view-text-shadow-color: #879693;
-  --dark-background-color: #0a2d2e;
-  --dark-nav-bar-background-color: #879693;
-  --dark-nav-bar-links-color: #0a2d2e;
+  --dark-details-view-border-color: #c6c7d0;
+  --dark-details-view-text-shadow-color: #c6c7d0;
+  --dark-background-color: #1d2448;
+  --dark-nav-bar-background-color: #4d536f;
+  --dark-nav-bar-links-color: #c6c7d0;
+  --dark-landing-background-image: url("./assets/images/gomera_evening.jpg");
+  --dark-logo-image: url("./assets/images/logo.jpg");
 }
 
 /*

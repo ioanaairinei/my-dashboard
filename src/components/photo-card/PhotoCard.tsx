@@ -1,4 +1,4 @@
-import IMAGES, { type ImagesKey } from "../../assets/images/Images";
+import { IMAGES, type ImagesKey } from "../../assets/images/Images";
 import ImageContainer from "../image-container/image-container";
 import "./photo-card.less";
 

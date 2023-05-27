@@ -1,4 +1,4 @@
-const IMAGES = {
+export const IMAGES = {
   IMG_6398: new URL("./IMG_6398.jpg", import.meta.url).href,
   IMG_6399: new URL("./IMG_6399.jpg", import.meta.url).href,
   IMG_6437: new URL("./IMG_6437.jpg", import.meta.url).href,
@@ -51,5 +51,3 @@ const IMAGES = {
 };
 
 export type ImagesKey = keyof typeof IMAGES;
-
-export default IMAGES;
