@@ -1,3 +1,4 @@
+import { KeyboardEventHandler } from "react";
 import {
   IMAGES,
   IMAGES_THUMBS,
@@ -17,15 +18,21 @@ export interface PhotoCardProps {
 function PhotoCard({ id, title, imgSrc, painter, onClick }: PhotoCardProps) {
   const imageSrc: ImagesKey = imgSrc;
 
+  const handleKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === "Enter") {
+      onClick(id);
+    }
+  };
+
   return (
     <div
       id={`photo-card-${id}`}
       className="photo-card-container"
       role="button"
-      tabIndex={0}
       onClick={() => {
         onClick(id);
       }}
+      onKeyDown={(event) => handleKeyDown(event)}
     >
       <ImageContainer
         className="photo-card-image"

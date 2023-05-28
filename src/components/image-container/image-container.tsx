@@ -26,6 +26,7 @@ const ImageContainer = (props: ImageContainerProps) => {
       ref={ref}
       className="image-container"
       style={{ paddingBottom: `${100}%` }}
+      tabIndex={0}
     >
       {isVisible && (
         <Image

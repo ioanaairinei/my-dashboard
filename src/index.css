@@ -18,7 +18,7 @@
   --current-focus-outline-color-2: blue;
   --current-focus-outline-color-3: green;
   --current-focus-outline-color-4: yellow;
-  --current-focus-outline-color: var(--focus-outline-color-1);
+  --focus-outline-color: var(--current-focus-outline-color-1);
   --current-background-color: var(--dark-background-color);
   --current-details-view-border-color: var(--dark-details-view-border-color);
   --current-details-view-text-shadow-color: var(
@@ -50,6 +50,10 @@
   --dark-nav-bar-links-color: #c6c7d0;
   --dark-landing-background-image: url("./assets/images/gomera_evening.jpg");
   --dark-logo-image: url("./assets/images/logo.jpg");
+  --dark-focus-outline-color-1: red;
+  --dark-focus-outline-color-2: blue;
+  --dark-focus-outline-color-3: green;
+  --dark-focus-outline-color-4: yellow;
 }
 
 /*

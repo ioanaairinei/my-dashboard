@@ -1,7 +1,7 @@
 import PhotoCard from "../photo-card/PhotoCard";
 import "./cards-container.less";
 import { type ImagesKey } from "../../assets/images/Images";
-import { type Photo } from "../../views/Paintings";
+import { type Photo } from "../../views/paintings/Paintings";
 
 interface CardsContainerProps {
   onCardClick: (id: number) => void;

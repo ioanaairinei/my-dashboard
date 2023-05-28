@@ -60,6 +60,13 @@ function DetailsView({
     getInfoFromChatGPT();
   }, []);
 
+  const onCloseButtonKeyDown = (event: React.KeyboardEvent) => {
+    console.log(event);
+    if (event.key === "Enter") {
+      onClose();
+    }
+  };
+
   return (
     <div className="details-view-container" id="details-view">
       <div className="image-details-view-container" ref={imageRef}>
@@ -72,6 +79,8 @@ function DetailsView({
             size="small"
             color="secondary"
             onClick={onClose}
+            tabIndex={0}
+            onKeyDown={(e) => onCloseButtonKeyDown(e)}
           >
             <CloseIcon
               sx={{ color: "var(--current-details-view-border-color)" }}
