@@ -4,6 +4,7 @@ import Paintings from "./views/paintings/Paintings";
 import { Route, Routes } from "react-router-dom";
 import NoViewFound from "./views/no-view-found/no-view-found";
 import Home from "./views/home/home";
+import PhotoGalleryAIGenerated from "./views/ai-generated-gallery/photo-gallery-ai-generated";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />}>
           <Route index element={<LandingPage />} />
           <Route path="/paintings" element={<Paintings />} />
+          <Route path="/dalle" element={<PhotoGalleryAIGenerated />} />
           <Route path="*" element={<NoViewFound />} />
         </Route>
       </Routes>

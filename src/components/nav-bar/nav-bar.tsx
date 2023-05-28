@@ -62,10 +62,22 @@ const NavBar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="#">About</Link>
+            <Link to="/paintings">Paintings</Link>
           </li>
           <li>
-            <Link to="/paintings">Paintings</Link>
+            <Tooltip
+              title={
+                <a
+                  className="description-info-link"
+                  href="https://openai.com/product/dall-e-2"
+                  target="_blank"
+                >
+                  Art generated with DALL-E 2
+                </a>
+              }
+            >
+              <Link to="/dalle">Girl and Laptop</Link>
+            </Tooltip>
           </li>
         </ul>
         <div

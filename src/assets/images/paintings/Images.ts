@@ -48,6 +48,150 @@ export const IMAGES = {
   IMG_0270: new URL("./IMG_0270.jpeg", import.meta.url).href,
   IMG_0277: new URL("./IMG_0277.jpeg", import.meta.url).href,
   IMG_0280: new URL("./IMG_0280.jpeg", import.meta.url).href,
+  DALL_E_01: new URL(
+    "../DALL-E/DALL·E 2023-05-28 12.56.15.png",
+    import.meta.url
+  ).href,
+  DALL_E_02: new URL(
+    "../DALL-E/DALL·E 2023-05-28 12.59.44 - paiting of a software developer girl with a laptop in the style of Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_03: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.04.58 - oil painting of a girl with a laptop in the style of Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_04: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.08.09 - a girl with a laptop by Leonardo Davinci.png",
+    import.meta.url
+  ).href,
+  DALL_E_05: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.16.12 - mademoiselle in green dress working at the laptop in the park painting by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_06: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.18.41 - painting of a mademoiselle in green dress working at the laptop in the park by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_07: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.19.20 - painting of a mademoiselle in green dress working at the laptop in the park by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_08: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.21.26 - painting of a woman in blue dress working at the laptop in the park in Francesco Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_09: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.23.07.png",
+    import.meta.url
+  ).href,
+  DALL_E_10: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.26.58 - painting of a medieval girl travelling with a laptop in Fernando Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_11: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.28.45 - painting of a 16th century England girl travelling with a laptop in Fernando Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_12: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.37.02 - painting of an 19th century girl working at her laptop in the public square in Rome by Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_13: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.37.14 - painting of an 19th century girl working at her laptop in the public square in Rome by Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_14: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.46.19.png",
+    import.meta.url
+  ).href,
+  DALL_E_15: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.47.22 - a girl working at her laptop in the style of Starry Nights.png",
+    import.meta.url
+  ).href,
+  DALL_E_16: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.47.49 - a girl working at her laptop in the style of Van Gogh.png",
+    import.meta.url
+  ).href,
+  DALL_E_17: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.49.46 - painting of a girl working at her laptop in the style of Rembrant.png",
+    import.meta.url
+  ).href,
+  DALL_E_18: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.55.40 - painting of a woman working at her laptop by Gustav Klimt.png",
+    import.meta.url
+  ).href,
+  DALL_E_19: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.57.15 - painting of a woman working at her laptop by Raphael.png",
+    import.meta.url
+  ).href,
+  DALL_E_20: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.58.06 - painting of a woman working at her laptop by Paul CÉZANNE.png",
+    import.meta.url
+  ).href,
+  DALL_E_21: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.58.42 - painting of a woman working at her laptop by Monet.png",
+    import.meta.url
+  ).href,
+  DALL_E_22: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.17.57 - oil painting of a girl in Ancient Greece working at her laptop on the beach digital art.png",
+    import.meta.url
+  ).href,
+  DALL_E_23: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.18.42 - painting of a woman working at her laptop by MARY CASSATT.png",
+    import.meta.url
+  ).href,
+  DALL_E_24: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.19.33 - painting of a woman working at her laptop by Monet.png",
+    import.meta.url
+  ).href,
+  DALL_E_25: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.20.54 - girl travelling with a laptop in Fernando Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_26: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.21.10 - girl working at a laptop in the park.png",
+    import.meta.url
+  ).href,
+  DALL_E_27: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.21.43 - painting of a mademoiselle in green dress working at the laptop in the park by Francois de Troy digital art.png",
+    import.meta.url
+  ).href,
+  DALL_E_28: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.24 - mademoiselle in green dress working at the laptop in the park painting by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_29: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.36 - romanian peasant girl working at the laptop painting by Nicolae Grigorescu.png",
+    import.meta.url
+  ).href,
+  DALL_E_30: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.43 - romanian peasant girl working at the laptop painting by Nicolae Grigorescu digital art.png",
+    import.meta.url
+  ).href,
+  DALL_E_31: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.54 - romanian peasant girl working at the laptop painting by Nicolae Grigorescu.png",
+    import.meta.url
+  ).href,
+  DALL_E_32: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.23.22 - girl working at the laptop painting by Nicolae Grigorescu.png",
+    import.meta.url
+  ).href,
+  DALL_E_33: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.23.33 - Girl and a laptop by Leonardo Davinci painting.png",
+    import.meta.url
+  ).href,
+  DALL_E_34: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.23.45 - Girl and a laptop by Friedrich Overbeck painting.png",
+    import.meta.url
+  ).href,
+  DALL_E_35: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.24.05 - oil painting of a software developer girl with a laptop in the style of Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_36: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.24.16 - a woman working at her laptop in the style of Rembrant.png",
+    import.meta.url
+  ).href,
 };
 
 export const IMAGES_THUMBS = {
@@ -100,6 +244,150 @@ export const IMAGES_THUMBS = {
   IMG_0270: new URL("./IMG_0270_thumb.jpeg", import.meta.url).href,
   IMG_0277: new URL("./IMG_0277_thumb.jpeg", import.meta.url).href,
   IMG_0280: new URL("./IMG_0280_thumb.jpeg", import.meta.url).href,
+  DALL_E_01: new URL(
+    "../DALL-E/DALL·E 2023-05-28 12.56.15.png",
+    import.meta.url
+  ).href,
+  DALL_E_02: new URL(
+    "../DALL-E/DALL·E 2023-05-28 12.59.44 - paiting of a software developer girl with a laptop in the style of Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_03: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.04.58 - oil painting of a girl with a laptop in the style of Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_04: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.08.09 - a girl with a laptop by Leonardo Davinci.png",
+    import.meta.url
+  ).href,
+  DALL_E_05: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.16.12 - mademoiselle in green dress working at the laptop in the park painting by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_06: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.18.41 - painting of a mademoiselle in green dress working at the laptop in the park by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_07: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.19.20 - painting of a mademoiselle in green dress working at the laptop in the park by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_08: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.21.26 - painting of a woman in blue dress working at the laptop in the park in Francesco Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_09: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.23.07.png",
+    import.meta.url
+  ).href,
+  DALL_E_10: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.26.58 - painting of a medieval girl travelling with a laptop in Fernando Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_11: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.28.45 - painting of a 16th century England girl travelling with a laptop in Fernando Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_12: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.37.02 - painting of an 19th century girl working at her laptop in the public square in Rome by Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_13: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.37.14 - painting of an 19th century girl working at her laptop in the public square in Rome by Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_14: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.46.19.png",
+    import.meta.url
+  ).href,
+  DALL_E_15: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.47.22 - a girl working at her laptop in the style of Starry Nights.png",
+    import.meta.url
+  ).href,
+  DALL_E_16: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.47.49 - a girl working at her laptop in the style of Van Gogh.png",
+    import.meta.url
+  ).href,
+  DALL_E_17: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.49.46 - painting of a girl working at her laptop in the style of Rembrant.png",
+    import.meta.url
+  ).href,
+  DALL_E_18: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.55.40 - painting of a woman working at her laptop by Gustav Klimt.png",
+    import.meta.url
+  ).href,
+  DALL_E_19: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.57.15 - painting of a woman working at her laptop by Raphael.png",
+    import.meta.url
+  ).href,
+  DALL_E_20: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.58.06 - painting of a woman working at her laptop by Paul CÉZANNE.png",
+    import.meta.url
+  ).href,
+  DALL_E_21: new URL(
+    "../DALL-E/DALL·E 2023-05-28 13.58.42 - painting of a woman working at her laptop by Monet.png",
+    import.meta.url
+  ).href,
+  DALL_E_22: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.17.57 - oil painting of a girl in Ancient Greece working at her laptop on the beach digital art.png",
+    import.meta.url
+  ).href,
+  DALL_E_23: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.18.42 - painting of a woman working at her laptop by MARY CASSATT.png",
+    import.meta.url
+  ).href,
+  DALL_E_24: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.19.33 - painting of a woman working at her laptop by Monet.png",
+    import.meta.url
+  ).href,
+  DALL_E_25: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.20.54 - girl travelling with a laptop in Fernando Hayez style.png",
+    import.meta.url
+  ).href,
+  DALL_E_26: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.21.10 - girl working at a laptop in the park.png",
+    import.meta.url
+  ).href,
+  DALL_E_27: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.21.43 - painting of a mademoiselle in green dress working at the laptop in the park by Francois de Troy digital art.png",
+    import.meta.url
+  ).href,
+  DALL_E_28: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.24 - mademoiselle in green dress working at the laptop in the park painting by Francois de Troy.png",
+    import.meta.url
+  ).href,
+  DALL_E_29: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.36 - romanian peasant girl working at the laptop painting by Nicolae Grigorescu.png",
+    import.meta.url
+  ).href,
+  DALL_E_30: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.43 - romanian peasant girl working at the laptop painting by Nicolae Grigorescu digital art.png",
+    import.meta.url
+  ).href,
+  DALL_E_31: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.22.54 - romanian peasant girl working at the laptop painting by Nicolae Grigorescu.png",
+    import.meta.url
+  ).href,
+  DALL_E_32: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.23.22 - girl working at the laptop painting by Nicolae Grigorescu.png",
+    import.meta.url
+  ).href,
+  DALL_E_33: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.23.33 - Girl and a laptop by Leonardo Davinci painting.png",
+    import.meta.url
+  ).href,
+  DALL_E_34: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.23.45 - Girl and a laptop by Friedrich Overbeck painting.png",
+    import.meta.url
+  ).href,
+  DALL_E_35: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.24.05 - oil painting of a software developer girl with a laptop in the style of Johannes Vermeer.png",
+    import.meta.url
+  ).href,
+  DALL_E_36: new URL(
+    "../DALL-E/DALL·E 2023-05-28 14.24.16 - a woman working at her laptop in the style of Rembrant.png",
+    import.meta.url
+  ).href,
 };
 
 export type ImagesKey = keyof typeof IMAGES;
