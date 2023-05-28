@@ -6,6 +6,8 @@ import { IMAGES, type ImagesKey } from "../../assets/images/paintings/Images";
 import "./details-view.less";
 import { useEffect, useState } from "react";
 import { callChatGPTCompletion } from "../../services/chat-gpt-service";
+import Description from "./description";
+import Loader from "../loader/Loader";
 
 export interface DetailsViewProps {
   title: string;
@@ -102,46 +104,26 @@ function DetailsView({
         </div>
         {paitingDescription.fetchInProgress ? (
           <div className="description-placeholder">
-            Do you know this paiting?
+            <Loader
+              words={
+                Array.from((title + " " + author).toLowerCase().split(" ")) || [
+                  "do",
+                  "you",
+                  "know",
+                  "this",
+                  "painting",
+                ]
+              }
+            />
           </div>
         ) : (
-          <div className="description">
-            <div>
-              <h3>{title}</h3>
-              <h4>{author}</h4>
-            </div>
-            <div>
-              <p>
-                {paitingDescription.description}
-                {paitingDescription.description !== "?" && (
-                  <Tooltip
-                    title={
-                      <a
-                        className="description-info-link"
-                        href="https://platform.openai.com/docs/models/gpt-3-5"
-                        target="_blank"
-                      >
-                        Generated with Open AI GPT-3.5
-                      </a>
-                    }
-                  >
-                    <InfoIcon
-                      sx={{
-                        color: "var(--current-details-view-border-color)",
-                        fontSize: 14,
-                      }}
-                    />
-                  </Tooltip>
-                )}
-              </p>
-            </div>
-            <div className="description-links">
-              Can be admired in{" "}
-              <a href={locationUrl} target="_blank" rel="noreferrer">
-                {location}
-              </a>
-            </div>
-          </div>
+          <Description
+            title={title}
+            author={author}
+            description={paitingDescription.description}
+            location={location}
+            locationUrl={locationUrl}
+          />
         )}
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { type ImagesKey } from "../../assets/images/paintings/Images";
 import CardsContainer from "../../components/cards-container/CardsContainer";
-import DetailsView from "../../components/details-view/DetailsView";
+import DetailsView from "../../components/details-view/details-view";
 import photos from "../../data/photos.json";
 import "./paintings.less";
 
