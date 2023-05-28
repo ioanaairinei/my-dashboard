@@ -5,6 +5,7 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { ThemeSelectorContext } from "../../utils/contexts/theme-selector";
 import { Link } from "react-router-dom";
+import Tooltip from "@mui/material/Tooltip";
 
 const NavBar = () => {
   const { themeName, toggleTheme } = useContext(ThemeSelectorContext);
@@ -40,7 +41,19 @@ const NavBar = () => {
 
   return (
     <nav id="nav-bar" className="nav-bar">
-      <div className="nav-bar-logo"></div>
+      <Tooltip
+        title={
+          <a
+            className="description-info-link"
+            href="https://openai.com/product/dall-e-2"
+            target="_blank"
+          >
+            Generated with DALL-E 2
+          </a>
+        }
+      >
+        <div className="nav-bar-logo"></div>
+      </Tooltip>
       <div className="nav-bar-content">
         <ul
           className={`nav-bar-links ${isBurgerNavActive ? "nav-active" : ""}`}
