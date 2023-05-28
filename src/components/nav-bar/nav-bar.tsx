@@ -65,7 +65,15 @@ const NavBar = () => {
         </div>
       </div>
       <IconButton className="theme-toggle-button" onClick={toggleTheme}>
-        {themeName === "dark" ? <LightModeIcon /> : <DarkModeIcon />}
+        {themeName === "dark" ? (
+          <LightModeIcon
+            sx={{ color: "var(--current-details-view-border-color)" }}
+          />
+        ) : (
+          <DarkModeIcon
+            sx={{ color: "var(--current-details-view-border-color)" }}
+          />
+        )}
       </IconButton>
     </nav>
   );

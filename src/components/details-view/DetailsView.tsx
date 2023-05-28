@@ -31,7 +31,7 @@ function DetailsView({
 
   useEffect(() => {
     if (imageRef.current) {
-      imageRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
+      //imageRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
     }
 
     async function getInfoFromChatGPT() {
@@ -73,7 +73,9 @@ function DetailsView({
             color="secondary"
             onClick={onClose}
           >
-            <CloseIcon />
+            <CloseIcon
+              sx={{ color: "var(--current-details-view-border-color)" }}
+            />
           </IconButton>
         </div>
         {paitingDescription.fetchInProgress ? (
