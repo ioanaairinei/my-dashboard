@@ -113,24 +113,26 @@ function DetailsView({
             <div>
               <p>
                 {paitingDescription.description}
-                <Tooltip
-                  title={
-                    <a
-                      className="description-info-link"
-                      href="https://platform.openai.com/docs/models/gpt-3-5"
-                      target="_blank"
-                    >
-                      Generated with Open AI GPT-3.5
-                    </a>
-                  }
-                >
-                  <InfoIcon
-                    sx={{
-                      color: "var(--current-details-view-border-color)",
-                      fontSize: 14,
-                    }}
-                  />
-                </Tooltip>
+                {paitingDescription.description !== "?" && (
+                  <Tooltip
+                    title={
+                      <a
+                        className="description-info-link"
+                        href="https://platform.openai.com/docs/models/gpt-3-5"
+                        target="_blank"
+                      >
+                        Generated with Open AI GPT-3.5
+                      </a>
+                    }
+                  >
+                    <InfoIcon
+                      sx={{
+                        color: "var(--current-details-view-border-color)",
+                        fontSize: 14,
+                      }}
+                    />
+                  </Tooltip>
+                )}
               </p>
             </div>
             <div className="description-links">
