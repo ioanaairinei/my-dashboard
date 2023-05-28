@@ -39,7 +39,7 @@
   --light-background-color: #f1f1f4;
   --light-nav-bar-background-color: #c6c7d0;
   --light-nav-bar-links-color: #4d536f;
-  --light-landing-background-image: url("./assets/images/mayrhofen_background.jpg");
+  --light-landing-background-image: url("./assets/images/backgrounds/mayrhofen_background.jpg");
   --light-logo-image: url("./assets/images/logo.jpg");
 
   /*Dark theme*/
@@ -48,7 +48,7 @@
   --dark-background-color: #1d2448;
   --dark-nav-bar-background-color: #4d536f;
   --dark-nav-bar-links-color: #c6c7d0;
-  --dark-landing-background-image: url("./assets/images/gomera_evening.jpg");
+  --dark-landing-background-image: url("./assets/images/backgrounds/gomera_evening.jpg");
   --dark-logo-image: url("./assets/images/logo.jpg");
   --dark-focus-outline-color-1: red;
   --dark-focus-outline-color-2: blue;

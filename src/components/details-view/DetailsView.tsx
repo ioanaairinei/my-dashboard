@@ -2,7 +2,7 @@ import _ from "lodash";
 import { IconButton, Tooltip } from "@mui/material";
 import InfoIcon from "@mui/icons-material/Info";
 import CloseIcon from "@mui/icons-material/Close";
-import { IMAGES, type ImagesKey } from "../../assets/images/Images";
+import { IMAGES, type ImagesKey } from "../../assets/images/paintings/Images";
 import "./details-view.less";
 import { useEffect, useState } from "react";
 import { callChatGPTCompletion } from "../../services/chat-gpt-service";

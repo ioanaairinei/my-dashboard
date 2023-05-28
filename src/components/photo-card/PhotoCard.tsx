@@ -3,7 +3,7 @@ import {
   IMAGES,
   IMAGES_THUMBS,
   type ImagesKey,
-} from "../../assets/images/Images";
+} from "../../assets/images/paintings/Images";
 import ImageContainer from "../image-container/image-container";
 import "./photo-card.less";
 
