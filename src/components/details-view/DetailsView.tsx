@@ -12,6 +12,7 @@ export interface DetailsViewProps {
   img: ImagesKey;
   location: string;
   locationUrl?: string;
+  description?: string;
   onClose: () => void;
 }
 
@@ -21,39 +22,50 @@ function DetailsView({
   img,
   location,
   locationUrl,
+  description,
   onClose,
 }: DetailsViewProps) {
   const [paitingDescription, setPaintingDescription] = useState<any>({
     fetchInProgress: true,
     description: undefined,
   });
-  const imageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (imageRef.current) {
-      //imageRef.current.scrollIntoView({ behavior: "smooth", block: "end" });
-    }
-
     async function getInfoFromChatGPT() {
-      const chatGPTPrompt = `Tell me something about the paiting ${title} by ${author} :`;
-      try {
-        const result = await callChatGPTCompletion(chatGPTPrompt);
-        if (_.isEmpty(result)) {
-          setPaintingDescription({
-            fetchingInProgress: false,
-            description: result,
-          });
-        }
+      if (title && author) {
+        try {
+          const chatGPTPrompt = `Tell me something about the paiting ${title} by ${author} :`;
+          const result = await callChatGPTCompletion(chatGPTPrompt);
 
-        /* setTimeout(() => {
-                    setPaintingDescription(
-                        {
-                            fetchInProgress: false,
-                            description: "Beauty, Wealth and Spirit is a painting by Hungarian artist László Tóth. It is an oil painting on canvas, measuring 60 x 60 cm. The painting depicts three figures, each representing a different concept. The figure on the left is a woman, representing beauty. The figure in the middle is a man, representing wealth. The figure on the right is a bird, representing spirit. The painting is a representation of the importance of finding balance between beauty, wealth, and spirit in life."
-                        })
-                }, 2000); */
-      } catch (err) {
-        console.log("Error occured when fetching info.");
+          if (!_.isEmpty(result)) {
+            setPaintingDescription({
+              fetchingInProgress: false,
+              description: result,
+            });
+          } else {
+            setTimeout(() => {
+              setPaintingDescription({
+                fetchInProgress: false,
+                description: description,
+              });
+            }, 2000);
+          }
+        } catch (err) {
+          console.log("Error occured when fetching info.");
+          setTimeout(() => {
+            setPaintingDescription({
+              fetchInProgress: false,
+              description: description,
+            });
+          }, 2000);
+        }
+      } else {
+        setTimeout(() => {
+          setPaintingDescription({
+            fetchInProgress: false,
+            description: description,
+          });
+        }, 2000);
       }
     }
 
@@ -69,7 +81,7 @@ function DetailsView({
 
   return (
     <div className="details-view-container" id="details-view">
-      <div className="image-details-view-container" ref={imageRef}>
+      <div className="image-details-view-container">
         <img className="image-details-view" src={IMAGES[img]} alt={title} />
       </div>
       <div className="content-details-view">

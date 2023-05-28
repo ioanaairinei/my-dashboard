@@ -2,6 +2,7 @@
   {
     "title": "Sermon of St Mark in Alexandria",
     "painter": "BELLINI, Giovanni",
+    "description": "Sermon of St Mark in Alexandria is a painting by Italian Renaissance painter Giovanni Bellini. It was completed around 1496 and is now housed in the Frick Collection in New York City. This painting depicts a scene from St Mark’s Gospel in which St Mark ordains a successor in Alexandria and passes on the authority to preach and teach. Bellini painted this work in a distinctive maniera style, with a soft, atmospheric foreground dominated by bright pastel tones. Bellini's use of perspective and naturalistic colors creates a realistic feel, while the figures are placed in a majestic and spiritual setting. Through Bellini's meticulous details, the spatial arrangement conveys a sense of great solemnity and grandeur.",
     "img": "IMG_6398",
     "id": 1,
     "location": "Milan",
@@ -10,6 +11,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_6399",
     "id": 2,
     "location": "Milan",
@@ -18,6 +20,7 @@
   {
     "title": "View of the Grand Canal towards the Punta della Dogana from Campo San Vio",
     "painter": "Canaletto (Giovanni Antonio Canal)",
+    "description": "View of the Grand Canal towards the Punta della Dogana from Campo San Vio is an oil painting on canvas by the Italian artist Canaletto (Giovanni Antonio Canal). It was painted in 1730 and is now housed in the National Gallery in London. The painting is a realistic representation of the Grand Canal in Venice, Italy, with the Punta della Dogana in the background. The painting captures the bustling activity of the canal with boats, gondolas, and people going about their daily lives. The painting also features the Church of San Vio and the Palazzo Balbi in the foreground.",
     "img": "IMG_6437",
     "id": 3,
     "location": "Milan",
@@ -26,6 +29,7 @@
   {
     "title": "The Kiss",
     "painter": "Francesco Hayez",
+    "description": "The Kiss is an oil painting on canvas by the Italian artist Francesco Hayez, created in 1859. It is an iconic work of the Romantic period and is considered one of the most passionate and intense representations of love in art history. The painting depicts a couple embracing in a passionate embrace, with the man's face hidden in the woman's hair. The painting is a symbol of love and passion, and has been widely reproduced and referenced in popular culture.",
     "img": "IMG_6452",
     "id": 4,
     "location": "Milan",
@@ -34,6 +38,7 @@
   {
     "title": "Triste Presentimento",
     "painter": "Gerolamo Induno",
+    "description": "Triste Presentimento (Sad Foreboding) is an oil painting by Gerolamo Induno, an Italian painter from the 19th century. It was painted in 1867 and is currently housed in the Pinacoteca di Brera in Milan, Italy. The painting depicts a young woman in a white dress, standing in a forest with a dark, ominous sky in the background. The woman appears to be in a state of deep contemplation, her eyes cast downward and her hands clasped together. The painting conveys a sense of sadness and foreboding, as if the woman is aware of some impending danger or tragedy.",
     "img": "IMG_6454",
     "id": 5,
     "location": "Milan",
@@ -42,6 +47,7 @@
   {
     "title": "The Sorrows of Ossian",
     "painter": "Károly Kisfaludy",
+    "description": "The Sorrows of Ossian is an oil painting by Hungarian painter Károly Kisfaludy. It was painted in 1825 and is now in the Hungarian National Museum in Budapest. The painting depicts a scene from the epic poem Ossian, written by the Scottish poet James Macpherson in the late 18th century. The painting shows a group of Ossian's warriors mourning the death of their leader, Ossian, who has just been killed in battle. The painting is a romanticized version of the poem, with a dramatic sky and a sense of sorrow and tragedy.",
     "img": "IMG_8325",
     "id": 6,
     "location": "Budapest",
@@ -50,6 +56,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_8332",
     "id": 7,
     "location": "Budapest",
@@ -58,6 +65,7 @@
   {
     "title": "Landscape Near Tivoli",
     "painter": "Károly Markó the Elder",
+    "description": "Landscape Near Tivoli by Károly Markó the Elder is an oil on canvas painting created in 1868. It depicts a lush landscape near the Italian city of Tivoli, with a winding river, rolling hills, and a distant mountain range. The painting is notable for its use of light and color, with a bright blue sky and soft, warm tones in the landscape. The painting also features a small village in the foreground, adding a sense of human presence to the scene.",
     "img": "IMG_8334",
     "id": 8,
     "location": "Budapest",
@@ -66,6 +74,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_8345",
     "id": 9,
     "location": "Budapest",
@@ -74,6 +83,7 @@
   {
     "title": "The Balloon",
     "painter": "Pál Szinyei Merse",
+    "description": "The Balloon by Pál Szinyei Merse is a painting from 1885 that depicts a family of four enjoying a hot air balloon ride. The painting is full of vibrant colors and is a celebration of the joy of flight. It is a romanticized view of the world and captures the beauty of the moment. The painting is part of the Hungarian National Gallery's permanent collection.",
     "img": "IMG_8366",
     "id": 10,
     "location": "Budapest",
@@ -82,6 +92,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_8370",
     "id": 11,
     "location": "Budapest",
@@ -90,6 +101,7 @@
   {
     "title": "Beauty, Wealth and Spirit",
     "painter": "László Tóth",
+    "description": "Beauty, Wealth and Spirit is a painting by Hungarian artist László Tóth. It is an oil painting on canvas, measuring 60 x 60 cm. The painting depicts three figures, each representing a different concept. The figure on the left is a woman, representing beauty. The figure in the middle is a man, representing wealth. The figure on the right is a bird, representing spirit. The painting is a representation of the importance of finding balance between beauty, wealth, and spirit in life.",
     "img": "IMG_8372",
     "id": 12,
     "location": "Budapest",
@@ -98,6 +110,7 @@
   {
     "title": "Green Donkey",
     "painter": "Sándor Bortnyik",
+    "description": "Green Donkey is a painting by Hungarian artist Sándor Bortnyik. It was painted in 1927 and is considered to be one of his most important works. The painting depicts a donkey standing in a grassy field, surrounded by a bright green landscape. The donkey is painted in a simplified, abstract style, with its body composed of geometric shapes. The painting is seen as an example of Bortnyik's early modernist style, and is thought to represent the artist's search for a new visual language.",
     "img": "IMG_8402",
     "id": 13,
     "location": "Budapest",
@@ -106,6 +119,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_8418",
     "id": 15,
     "location": "Budapest",
@@ -114,6 +128,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_8421",
     "id": 16,
     "location": "Budapest",
@@ -122,6 +137,7 @@
   {
     "title": "",
     "painter": "",
+    "description": "?",
     "img": "IMG_8424",
     "id": 17,
     "location": "Budapest",
@@ -130,6 +146,7 @@
   {
     "title": "St. John the Baptist",
     "painter": "Bouts, Dieric the Younger",
+    "description": "St. John the Baptist by Dieric Bouts the Younger is an oil painting on panel, created circa 1515-1520. It is a portrait of St. John the Baptist, the patron saint of the city of Louvain, where Bouts was from. The painting features the saint in a landscape, wearing a fur-lined robe and holding a cross and a reed. The painting is a fine example of the Northern Renaissance style, with its use of bright colors and detailed landscape. The painting is currently held in the collection of the Groeningemuseum in Bruges, Belgium.",
     "img": "IMG_8770",
     "id": 18,
     "location": "Munich",
@@ -138,6 +155,7 @@
   {
     "title": "Park landscape",
     "painter": "Hubert Robert",
+    "description": "Park Landscape by Hubert Robert is an oil painting created in 1786. It is a landscape painting that depicts a park with a fountain and a large tree in the center. The painting has a soft, dreamy atmosphere, with the trees and the fountain creating a peaceful and tranquil scene. The painting is a classic example of the Rococo style, with its light colors, delicate brushwork, and graceful curves. The painting is currently in the collection of the Alte Pinakothek Munich.",
     "img": "IMG_8807",
     "id": 19,
     "location": "Munich",
@@ -146,6 +164,7 @@
   {
     "title": "Plain near Auvers",
     "painter": "Vincent van Gogh",
+    "description": "Plain near Auvers is an oil painting by Vincent van Gogh, created in 1890. The painting depicts a rural landscape near the town of Auvers-sur-Oise in France. The painting is notable for its bright colors and its bold brushstrokes, which are characteristic of Van Gogh's later works. The painting is also notable for its inclusion of a white church in the background, which is a recurring motif in Van Gogh's work.",
     "img": "IMG_8833",
     "id": 20,
     "location": "Munich",
@@ -154,6 +173,7 @@
   {
     "title": "Italia and Germania",
     "painter": "Friedrich Overbeck",
+    "description": "Italia and Germania is an oil painting on canvas created by German artist Friedrich Overbeck in 1828. The painting depicts two female figures, representing the countries of Italy and Germany, standing side by side. Italy is dressed in a white robe and holds a laurel wreath in her left hand, while Germany is dressed in a black robe and holds a sword in her right hand. The painting is meant to represent the union of the two countries and the hope for a unified Germany.",
     "img": "IMG_8848",
     "id": 21,
     "location": "Munich",
@@ -162,6 +182,7 @@
   {
     "title": "Portrait of a Girl",
     "painter": "Nicolae Grigorescu",
+    "description": "Portrait of a Girl by Nicolae Grigorescu is an oil painting created in 1883. It is one of the most famous works of the Romanian artist, and is considered to be a masterpiece of Romanian Realism. The painting depicts a young Romanian peasant girl in a traditional costume, with a serious expression on her face. The painting is notable for its attention to detail, with the girl's costume and features being rendered with great accuracy. The painting is seen as a symbol of Romanian identity and has been widely reproduced and celebrated in Romania.",
     "img": "IMG_9235",
     "id": 22,
     "location": "Bucharest",
@@ -170,6 +191,7 @@
   {
     "title": "Women in a Landscape",
     "painter": "Theodor Pallady",
+    "description": "Women in a Landscape is an oil painting by Romanian artist Theodor Pallady, completed in 1933. The painting depicts two female figures in a rural landscape, with the figures in the foreground and a distant view of a village in the background. The painting is an example of Pallady's use of muted colors and his focus on the female form. The painting is currently in the collection of the National Museum of Art of Romania.",
     "img": "IMG_9259",
     "id": 23,
     "location": "Bucharest",
@@ -178,6 +200,7 @@
   {
     "title": "Shipyard",
     "painter": "Agostino Tassi",
+    "description": "Shipyard by Agostino Tassi is an oil on canvas painting created in the early 17th century. It is a realistic depiction of a bustling shipyard in the port of Livorno, Italy. The painting shows a variety of activities taking place in the shipyard, including the construction of a large vessel, the unloading of cargo, and the repair of smaller boats. The painting is notable for its attention to detail, with a variety of people, tools, and materials visible in the scene. It is an example of the genre of maritime painting popular in the 17th century.",
     "img": "IMG_9266",
     "id": 24,
     "location": "Bucharest",
@@ -186,6 +209,7 @@
   {
     "title": "Portrait of a Girl with a Head Scarf",
     "painter": "Nicolae Grigorescu",
+    "description": "?",
     "img": "IMG_9274",
     "id": 25,
     "location": "Bucharest",
@@ -194,6 +218,7 @@
   {
     "title": "Peasant Girl in a Hay Field",
     "painter": "Nicolae Grigorescu",
+    "description": "Nicolae Grigorescu's painting Peasant Girl in a Hay Field is a classic example of Romanian Realism. The painting depicts a young peasant girl in a hay field, surrounded by nature. The girl is wearing traditional Romanian clothing and is carrying a bundle of hay on her back. The painting is notable for its use of bright colors and its focus on the beauty of the Romanian countryside. Grigorescu's painting is a celebration of the Romanian people and their rural way of life.",
     "img": "IMG_9282",
     "id": 26,
     "location": "Bucharest",
@@ -202,6 +227,7 @@
   {
     "title": "At the Fair",
     "painter": "Aurel Vintilescu",
+    "description": "?",
     "img": "IMG_9301",
     "id": 27,
     "location": "Bucharest",
@@ -210,6 +236,7 @@
   {
     "title": "Street",
     "painter": "Georg Dehn",
+    "description": "?",
     "img": "IMG_9305",
     "id": 28,
     "location": "Bucharest",
@@ -218,6 +245,7 @@
   {
     "title": "Choir",
     "painter": "Hedwig Mechle Grossmann",
+    "description": "?",
     "img": "IMG_9312",
     "id": 29,
     "location": "Bucharest",
@@ -226,6 +254,7 @@
   {
     "title": "Thais in Hell",
     "painter": "Gustave Courtois",
+    "description": "?",
     "img": "IMG_9321",
     "id": 30,
     "location": "Bucharest",
@@ -234,14 +263,16 @@
   {
     "title": "Campo di Fiori Market",
     "painter": "Pio Joris",
+    "description": "?",
     "img": "IMG_9331",
     "id": 31,
     "location": "Bucharest",
     "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
   },
   {
-    "title": "Unknown",
-    "painter": "Unknown",
+    "title": "",
+    "painter": "",
+    "description": "?",
     "img": "IMG_0119",
     "id": 32,
     "location": "Barcelona",
@@ -250,6 +281,7 @@
   {
     "title": "Annunciation",
     "painter": "Joan de Borgonya",
+    "description": "?",
     "img": "IMG_0140",
     "id": 33,
     "location": "Barcelona`",
@@ -258,6 +290,7 @@
   {
     "title": "Virgin and Child with the Infant Saint John",
     "painter": "Joan de Borgonya",
+    "description": "?",
     "img": "IMG_0148",
     "id": 34,
     "location": "Barcelona",
@@ -266,6 +299,7 @@
   {
     "title": "Saint Cecilia",
     "painter": "Giambattista Tiepolo and Giandomenico Tiepolo",
+    "description": "?",
     "img": "IMG_0171",
     "id": 35,
     "location": "Barcelona",
@@ -274,6 +308,7 @@
   {
     "title": "Portrait of Louise Francoise de Bourbon, mademoiselle de Nantes",
     "painter": "Francois de Troy",
+    "description": "Portrait of Louise Francoise de Bourbon, mademoiselle de Nantes by Francois de Troy is an oil on canvas painting created in 1710. It is one of the most famous works of the French Baroque artist, Francois de Troy. The painting depicts Louise Francoise de Bourbon, the daughter of Louis XIV of France, in a seated pose wearing a white dress with a blue sash and a pink ribbon in her hair. The painting is noted for its vibrant colors and the artist's skillful use of light and shadow to create a sense of depth and movement. The painting is currently housed in the Louvre Museum in Paris.",
     "img": "IMG_0178",
     "id": 36,
     "location": "Barcelona",
@@ -282,14 +317,16 @@
   {
     "title": "Public Exhibition of a Picture",
     "painter": "Joan Ferrer Miró",
+    "description": "Public Exhibition of a Picture by Joan Ferrer Miró is a painting by Spanish artist Joan Miró. The painting was created in 1925 and is an example of Miró's early Surrealist style. The painting depicts a large crowd of people gathered around a painting on display in a public exhibition. The painting is a chaotic scene with a variety of figures, including a large bird, a woman with a parasol, and a man with a bowler hat. The painting is a reflection of Miró's interest in the power of the public to shape art and culture.",
     "img": "IMG_0202",
     "id": 37,
     "location": "Barcelona",
     "locationUrl": "https://mnar.arts.ro/en/museum-of-art-collections"
   },
   {
-    "title": "The Hour of the Ghost",
+    "title": "The Ghost of the Sea",
     "painter": "Joaquim Pla Janini",
+    "description": "El fantasma de la Mar (The Ghost of the Sea) is a painting by Catalan artist Joaquim Pla Janini. It was painted in 1892 and is an expressionist work of art. The painting depicts a ghostly figure standing in the middle of a stormy sea, surrounded by turbulent waves and a dark sky. The figure is shrouded in a white cloth, and its face is hidden in the shadows. The painting is meant to evoke a sense of fear and dread, as the figure appears to be a ghostly reminder of death and mortality.",
     "img": "IMG_0203",
     "id": 39,
     "location": "Barcelona",
@@ -298,6 +335,7 @@
   {
     "title": "Public Exhibition of a Picture",
     "painter": "Joaquim Pla Janini",
+    "description": "Public Exhibition of a Picture by Joan Ferrer Miró is a painting by Spanish artist Joan Miró. The painting was created in 1925 and is an example of Miró's early Surrealist style. The painting depicts a large crowd of people gathered around a painting on display in a public exhibition. The painting is a chaotic scene with a variety of figures, including a large bird, a woman with a parasol, and a man with a bowler hat. The painting is a reflection of Miró's interest in the power of the public to shape art and culture.",
     "img": "IMG_0205",
     "id": 40,
     "location": "Barcelona",
@@ -306,6 +344,7 @@
   {
     "title": "Public Exhibition of a Picture",
     "painter": "Joan Ferrer Miró",
+    "description": "Public Exhibition of a Picture by Joan Ferrer Miró is a painting by Spanish artist Joan Miró. The painting was created in 1925 and is an example of Miró's early Surrealist style. The painting depicts a large crowd of people gathered around a painting on display in a public exhibition. The painting is a chaotic scene with a variety of figures, including a large bird, a woman with a parasol, and a man with a bowler hat. The painting is a reflection of Miró's interest in the power of the public to shape art and culture.",
     "img": "IMG_0206",
     "id": 41,
     "location": "Barcelona",
@@ -314,6 +353,7 @@
   {
     "title": "Choosing Prints",
     "painter": "Josep Duran",
+    "description": "Choosing Prints by Josep Duran is an oil painting created in the late 19th century. It depicts a woman seated in a chair, surrounded by a variety of prints and books. The woman is carefully examining the prints, as if she is choosing which one she would like to purchase. The painting has a muted color palette, with the woman's dress and the books and prints providing the only bright colors. The painting conveys a sense of contemplation and careful consideration.",
     "img": "IMG_0210",
     "id": 42,
     "location": "Barcelona",
@@ -322,6 +362,7 @@
   {
     "title": "Portrait of Amèlia de Vilanova i Nadal",
     "painter": "Federico de Mandrazo",
+    "description": "Portrait of Amèlia de Vilanova i Nadal by Federico de Mandrazo is an oil on canvas painting from 1876. It is a portrait of Amèlia de Vilanova i Nadal, the daughter of a wealthy Catalan family. The painting is a full-length portrait of the young woman, dressed in a white dress and a black shawl, standing in a garden. She is looking away from the viewer, her gaze lost in the distance. The painting is a masterful example of the realism of the 19th century, capturing the beauty and innocence of the subject.",
     "img": "IMG_0219",
     "id": 43,
     "location": "Barcelona",
@@ -330,6 +371,7 @@
   {
     "title": "A Romance",
     "painter": "Santiago Rusiñol",
+    "description": "?",
     "img": "IMG_0230",
     "id": 44,
     "location": "Barcelona",
@@ -338,6 +380,7 @@
   {
     "title": "Plein air",
     "painter": "Ramon Casas",
+    "description": "?",
     "img": "IMG_0235",
     "id": 45,
     "location": "Barcelona",
@@ -346,6 +389,7 @@
   {
     "title": "Dream",
     "painter": "Joan Brull",
+    "description": "?",
     "img": "IMG_0255",
     "id": 46,
     "location": "Barcelona",
@@ -354,6 +398,7 @@
   {
     "title": "Flutist",
     "painter": "Agustí Pisaca",
+    "description": "Flutist is an oil painting by Spanish artist Agustí Pisaça. It was painted in the early 20th century and is now part of the permanent collection of the Museu Nacional d'Art de Catalunya in Barcelona. The painting depicts a young woman playing a flute in a rural landscape. The woman is wearing a traditional Catalan costume and her body language conveys a sense of joy and freedom. The painting is a celebration of the beauty of nature and the joy of music.",
     "img": "IMG_0258",
     "id": 47,
     "location": "Barcelona",
@@ -362,6 +407,7 @@
   {
     "title": "The Retable of Love",
     "painter": "Julio Romero de Torres",
+    "description": "?",
     "img": "IMG_0267",
     "id": 48,
     "location": "Barcelona",
@@ -370,6 +416,7 @@
   {
     "title": "Dining Room",
     "painter": "Pere Torné Esquius",
+    "description": "?",
     "img": "IMG_0270",
     "id": 49,
     "location": "Barcelona",
@@ -378,6 +425,7 @@
   {
     "title": "Portrait of Joan Maria Torres",
     "painter": "Salvador Dali",
+    "description": "The painting, titled Portrait of Joan Maria Torres was painted by Salvador Dali in 1925. It is an oil painting on canvas that depicts the portrait of a woman in a white dress with a blue background. The woman is Joan Maria Torres, a Spanish poet and friend of Dali. The painting is a representation of Dali's admiration for Joan Maria Torres and her work. The painting is characterized by its dream-like atmosphere and its use of vibrant colors. It is a classic example of Dali's Surrealist style.",
     "img": "IMG_0277",
     "id": 50,
     "location": "Barcelona",
@@ -386,6 +434,7 @@
   {
     "title": "The Newlyweds",
     "painter": "Olga Sacharoff",
+    "description": "The Newlyweds is a painting by Russian artist Olga Sacharoff, created in 1907. It is an oil on canvas painting depicting a young couple in a romantic embrace. The painting is an example of Sacharoff's Symbolist style, which often focused on the themes of love and marriage. The painting is notable for its use of bold colors and its dreamlike atmosphere. The painting is currently housed in the Pushkin Museum of Fine Arts in Moscow.",
     "img": "IMG_0280",
     "id": 51,
     "location": "Barcelona",

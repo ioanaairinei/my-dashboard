@@ -12,6 +12,7 @@ export interface Photo {
   location: string;
   locationUrl: string;
   img: string;
+  description?: string;
 }
 
 function Paintings() {
@@ -38,6 +39,7 @@ function Paintings() {
           location={activePainting.location}
           locationUrl={activePainting.locationUrl}
           onClose={onCloseDetailedView}
+          description={activePainting.description}
         />
       )}
     </div>

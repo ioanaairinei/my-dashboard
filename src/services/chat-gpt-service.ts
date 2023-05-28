@@ -1,9 +1,15 @@
+import _ from "lodash";
+
 export const callChatGPTCompletion = async (
   prompt: string,
   max_tokens: number = 3072
 ): Promise<string> => {
   let result = "";
-  const GPT_API_KEY = "";
+  let GPT_API_KEY = "";
+
+  if (_.isEmpty(GPT_API_KEY)) {
+    return Promise.reject();
+  }
 
   try {
     const response = await fetch("/chatapi", {

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   padding: 50px;
-  min-height: 100%;
+  height: 94vh;
   margin-top: 60px;
 
   .image-details-view-container {
@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     padding-right: 20px;
+    max-height: 100%;
+    overflow: hidden;
 
     .image-details-view {
       display: block;
@@ -37,8 +39,11 @@
 
     .description {
       display: flex;
+      justify-content: space-between;
       flex-direction: column;
       gap: 50px;
+      height: 100%;
+      padding: 50px 20px;
 
       .description-links {
         font-size: small;
