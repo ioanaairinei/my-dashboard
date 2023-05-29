@@ -6,6 +6,7 @@ Contains:
 - photo gallery of images generated with DALL-E 2
 - theming
 - routing using React Router v6
+- css responsive nav bar
 - empty landing page :) ... for now
 
 ## Setup
