@@ -2,3 +2,5 @@ node_modules
 .DS_Store
 vite.config.ts
 src/vite-env.d.ts
+.prettierrc.json
+.eslintrc.json

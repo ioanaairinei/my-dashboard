@@ -1,13 +1,13 @@
-import _ from "lodash";
-import { IconButton, Tooltip } from "@mui/material";
-import InfoIcon from "@mui/icons-material/Info";
-import CloseIcon from "@mui/icons-material/Close";
-import { IMAGES, type ImagesKey } from "../../assets/images/paintings/Images";
-import "./details-view.less";
-import { useEffect, useState } from "react";
-import { callChatGPTCompletion } from "../../services/chat-gpt-service";
-import Description from "./description";
-import Loader from "../loader/Loader";
+import _ from 'lodash';
+import { IconButton, Tooltip } from '@mui/material';
+import InfoIcon from '@mui/icons-material/Info';
+import CloseIcon from '@mui/icons-material/Close';
+import { IMAGES, type ImagesKey } from '../../assets/images/paintings/Images';
+import './details-view.less';
+import { useEffect, useState } from 'react';
+import { callChatGPTCompletion } from '../../services/chat-gpt-service';
+import Description from './description';
+import Loader from '../loader/loader';
 
 export interface DetailsViewProps {
   title: string;
@@ -19,15 +19,7 @@ export interface DetailsViewProps {
   onClose: () => void;
 }
 
-function DetailsView({
-  title,
-  author,
-  img,
-  location,
-  locationUrl,
-  description,
-  onClose,
-}: DetailsViewProps) {
+function DetailsView({ title, author, img, location, locationUrl, description, onClose }: DetailsViewProps) {
   const [paitingDescription, setPaintingDescription] = useState<any>({
     fetchInProgress: true,
     description: undefined,
@@ -54,7 +46,7 @@ function DetailsView({
             }, 2000);
           }
         } catch (err) {
-          console.log("Error occured when fetching info.");
+          console.log('Error occured when fetching info.');
           setTimeout(() => {
             setPaintingDescription({
               fetchInProgress: false,
@@ -77,7 +69,7 @@ function DetailsView({
 
   const onCloseButtonKeyDown = (event: React.KeyboardEvent) => {
     console.log(event);
-    if (event.key === "Enter") {
+    if (event.key === 'Enter') {
       onClose();
     }
   };
@@ -97,22 +89,14 @@ function DetailsView({
             tabIndex={0}
             onKeyDown={(e) => onCloseButtonKeyDown(e)}
           >
-            <CloseIcon
-              sx={{ color: "var(--current-details-view-border-color)" }}
-            />
+            <CloseIcon sx={{ color: 'var(--current-details-view-border-color)' }} />
           </IconButton>
         </div>
         {paitingDescription.fetchInProgress ? (
           <div className="description-placeholder">
             <Loader
               words={
-                Array.from((title + " " + author).toLowerCase().split(" ")) || [
-                  "do",
-                  "you",
-                  "know",
-                  "this",
-                  "painting",
-                ]
+                Array.from((title + ' ' + author).toLowerCase().split(' ')) || ['do', 'you', 'know', 'this', 'painting']
               }
             />
           </div>

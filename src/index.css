@@ -1,5 +1,5 @@
 :root {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -21,9 +21,7 @@
   --focus-outline-color: var(--current-focus-outline-color-1);
   --current-background-color: var(--dark-background-color);
   --current-details-view-border-color: var(--dark-details-view-border-color);
-  --current-details-view-text-shadow-color: var(
-    --dark-details-view-text-shadow-color
-  );
+  --current-details-view-text-shadow-color: var(--dark-details-view-text-shadow-color);
   --current-nav-bar-background-color: var(--dark-nav-bar-background-color);
   --current-nav-bar-links-color: var(--dark-nav-bar-links-color);
   --current-landing-background-image: var(--dark-landing-background-image);
@@ -39,8 +37,8 @@
   --light-background-color: #f1f1f4;
   --light-nav-bar-background-color: #c6c7d0;
   --light-nav-bar-links-color: #4d536f;
-  --light-landing-background-image: url("./assets/images/backgrounds/mayrhofen_background.jpg");
-  --light-logo-image: url("./assets/images/logo.jpg");
+  --light-landing-background-image: url('./assets/images/backgrounds/mayrhofen_background.jpg');
+  --light-logo-image: url('./assets/images/logo.jpg');
 
   /*Dark theme*/
   --dark-details-view-border-color: #c6c7d0;
@@ -48,8 +46,8 @@
   --dark-background-color: #1d2448;
   --dark-nav-bar-background-color: #4d536f;
   --dark-nav-bar-links-color: #c6c7d0;
-  --dark-landing-background-image: url("./assets/images/backgrounds/gomera_evening.jpg");
-  --dark-logo-image: url("./assets/images/logo.jpg");
+  --dark-landing-background-image: url('./assets/images/backgrounds/gomera_evening.jpg');
+  --dark-logo-image: url('./assets/images/logo.jpg');
   --dark-focus-outline-color-1: red;
   --dark-focus-outline-color-2: blue;
   --dark-focus-outline-color-3: green;

@@ -1,10 +1,10 @@
-import { ThemeSelectorProvider } from "./utils/contexts/theme-selector";
-import LandingPage from "./views/landing-page/landing-page";
-import Paintings from "./views/paintings/Paintings";
-import { Route, Routes } from "react-router-dom";
-import NoViewFound from "./views/no-view-found/no-view-found";
-import Home from "./views/home/home";
-import PhotoGalleryAIGenerated from "./views/ai-generated-gallery/photo-gallery-ai-generated";
+import { ThemeSelectorProvider } from './utils/contexts/theme-selector';
+import LandingPage from './views/landing-page/landing-page';
+import Paintings from './views/paintings/Paintings';
+import { Route, Routes } from 'react-router-dom';
+import NoViewFound from './views/no-view-found/no-view-found';
+import Home from './views/home/home';
+import PhotoGalleryAIGenerated from './views/ai-generated-gallery/photo-gallery-ai-generated';
 
 function App() {
   return (

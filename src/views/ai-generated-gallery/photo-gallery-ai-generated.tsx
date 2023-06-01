@@ -1,28 +1,24 @@
-import CardsContainer from "../../components/cards-container/CardsContainer";
-import "./photo-gallery-ai-generated.less";
-import { useMemo, useState } from "react";
-import { Photo } from "../paintings/Paintings";
-import {
-  IMAGES,
-  IMAGES_THUMBS,
-  type ImagesKey,
-} from "../../assets/images/paintings/Images";
-import Image, { ImageProps } from "../../components/image-container/image";
-import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
+import CardsContainer from '../../components/cards-container/CardsContainer';
+import './photo-gallery-ai-generated.less';
+import { useMemo, useState } from 'react';
+import { Photo } from '../paintings/Paintings';
+import { IMAGES, IMAGES_THUMBS, type ImagesKey } from '../../assets/images/paintings/Images';
+import Image, { ImageProps } from '../../components/image-container/image';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 
 const PhotoGalleryAIGenerated = () => {
   const [activePainting, setActivePainting] = useState<Photo>();
   const photos = useMemo(() => {
     return Object.entries(IMAGES)
-      .filter(([key, imageSrc]) => key.toString().startsWith("DALL_E"))
+      .filter(([key, imageSrc]) => key.toString().startsWith('DALL_E'))
       .map(([key, imageSrc]) => ({
         id: +key.slice(-2),
         img: key,
-        title: "",
-        painter: "",
-        location: "",
-        locationUrl: "",
+        title: '',
+        painter: '',
+        location: '',
+        locationUrl: '',
       }));
   }, []);
 
@@ -50,15 +46,10 @@ const PhotoGalleryAIGenerated = () => {
               tabIndex={0}
               onKeyDown={onCloseDetailedView}
             >
-              <CloseIcon
-                sx={{ color: "var(--current-details-view-border-color)" }}
-              />
+              <CloseIcon sx={{ color: 'var(--current-details-view-border-color)' }} />
             </IconButton>
           </div>
-          <img
-            src={IMAGES[activePainting.img as ImagesKey]}
-            alt={activePainting.title}
-          />
+          <img src={IMAGES[activePainting.img as ImagesKey]} alt={activePainting.title} />
         </div>
       )}
     </div>

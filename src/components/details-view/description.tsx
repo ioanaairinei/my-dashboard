@@ -1,5 +1,5 @@
-import Tooltip from "@mui/material/Tooltip";
-import InfoIcon from "@mui/icons-material/Info";
+import Tooltip from '@mui/material/Tooltip';
+import InfoIcon from '@mui/icons-material/Info';
 
 export interface DescriptionProps {
   title: string;
@@ -9,13 +9,7 @@ export interface DescriptionProps {
   locationUrl?: string;
 }
 
-const Description = ({
-  title,
-  author,
-  description,
-  location,
-  locationUrl,
-}: DescriptionProps) => {
+const Description = ({ title, author, description, location, locationUrl }: DescriptionProps) => {
   return (
     <div className="description">
       <div>
@@ -25,7 +19,7 @@ const Description = ({
       <div>
         <p>
           {description}
-          {description !== "?" && (
+          {description !== '?' && (
             <Tooltip
               title={
                 <a
@@ -39,7 +33,7 @@ const Description = ({
             >
               <InfoIcon
                 sx={{
-                  color: "var(--current-details-view-border-color)",
+                  color: 'var(--current-details-view-border-color)',
                   fontSize: 14,
                 }}
               />
@@ -48,7 +42,7 @@ const Description = ({
         </p>
       </div>
       <div className="description-links">
-        Can be admired in{" "}
+        Can be admired in{' '}
         <a href={locationUrl} target="_blank" rel="noreferrer">
           {location}
         </a>

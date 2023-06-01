@@ -1,4 +1,4 @@
-import { MutableRefObject, RefObject, useEffect } from "react";
+import { MutableRefObject, RefObject, useEffect } from 'react';
 
 export interface UseIntersectionObserverProps {
   target: RefObject<HTMLDivElement | null>;
@@ -11,7 +11,7 @@ const useIntersectionObserver = ({
   target,
   onIntersect,
   threshold = 0.1, //10% of target is visible in viewport, we trigger onIntersect
-  rootMargin = "0px",
+  rootMargin = '0px',
 }: UseIntersectionObserverProps) => {
   useEffect(() => {
     const observer = new IntersectionObserver(onIntersect, {

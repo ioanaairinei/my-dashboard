@@ -1,5 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
+import { useState } from 'react';
 
 export interface ImageProps {
   altText: string;
@@ -17,7 +17,7 @@ const Image = (props: ImageProps) => {
         className="image thumb"
         alt={props.altText}
         src={props.thumb}
-        style={{ visibility: isLoaded ? "hidden" : "visible" }}
+        style={{ visibility: isLoaded ? 'hidden' : 'visible' }}
       />
       <img
         onLoad={() => {

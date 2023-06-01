@@ -1,11 +1,7 @@
-import { KeyboardEventHandler } from "react";
-import {
-  IMAGES,
-  IMAGES_THUMBS,
-  type ImagesKey,
-} from "../../assets/images/paintings/Images";
-import ImageContainer from "../image-container/image-container";
-import "./photo-card.less";
+import { KeyboardEventHandler } from 'react';
+import { IMAGES, IMAGES_THUMBS, type ImagesKey } from '../../assets/images/paintings/Images';
+import ImageContainer from '../image-container/image-container';
+import './photo-card.less';
 
 export interface PhotoCardProps {
   title: string;
@@ -19,7 +15,7 @@ function PhotoCard({ id, title, imgSrc, painter, onClick }: PhotoCardProps) {
   const imageSrc: ImagesKey = imgSrc;
 
   const handleKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === "Enter") {
+    if (event.key === 'Enter') {
       onClick(id);
     }
   };

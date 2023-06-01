@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import "./loader.less";
+import { useEffect, useState } from 'react';
+import './loader.less';
 
 interface LoaderProps {
   words: string[];

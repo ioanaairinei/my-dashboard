@@ -1,10 +1,7 @@
-export const getRealTimeWeather = async (
-  city: string = "Cluj",
-  noOfDays: number = 3
-) => {
+export const getRealTimeWeather = async (city: string = 'Cluj', noOfDays: number = 3) => {
   const url = `http://api.weatherapi.com/v1/current.json?key=N/A&q=${city}&aqi=no`;
   const options = {
-    method: "GET",
+    method: 'GET',
   };
 
   try {
