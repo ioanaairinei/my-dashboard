@@ -66,6 +66,9 @@ const NavBar = () => {
               <Link to="/dalle">Girl and Laptop</Link>
             </Tooltip>
           </li>
+          <li>
+            <Link to="/advent">JSAdvent</Link>
+          </li>
         </ul>
         <div
           className={`nav-bar-burger ${isBurgerNavActive ? 'toggle' : ''}`}

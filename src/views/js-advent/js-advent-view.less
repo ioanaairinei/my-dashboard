@@ -1,0 +1,42 @@
+.js-advent-container {
+  padding: 6vh 2vh 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--current-background-color);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+  .js-advent-grid-container {
+    padding-top: 6vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 12.5rem);
+    grid-gap: 1rem;
+    justify-content: center;
+    list-style: none;
+
+    .js-advent-item-card {
+      height: 12.5rem;
+      background-color: var(--current-nav-bar-background-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0.1rem solid var(--current-nav-bar-links-color);
+      border-radius: 3%;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--current-nav-bar-links-color);
+    }
+  }
+
+  .js-advent-active-component-container {
+    padding: 6vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    overflow: auto;
+  }
+}
