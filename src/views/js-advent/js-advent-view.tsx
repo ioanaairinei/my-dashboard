@@ -1,8 +1,14 @@
-import { ReactElement, useState } from 'react';
+import { ReactElement, Suspense, useState } from 'react';
+import React from 'react';
 import './js-advent-view.less';
-import KeyPressChecker from 'remote/KeyPressChecker';
-import PriceSlider from 'remote/PriceSlider';
-import TipCalculator from 'remote/TipCalculator';
+import { ErrorBoundary } from 'react-error-boundary';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
+import Loader from '../../components/loader/loader';
+
+const PriceSlider = React.lazy(() => import('remote/PriceSlider'));
+const KeyPressChecker = React.lazy(() => import('remote/KeyPressChecker'));
+const TipCalculator = React.lazy(() => import('remote/TipCalculator'));
 
 export interface ImportedComponentData {
   id: number;
@@ -32,24 +38,54 @@ const data: ImportedComponentData[] = [
   },
 ];
 
+const loaderWords = ['we', 'are', 'loading', 'your', 'component'];
+
 const JSAdvent = () => {
   const [activeComponentId, setActiveComponentId] = useState<number>();
+
+  const onCloseButtonKeyDown = (event: React.KeyboardEvent) => {
+    if (event.key === 'Enter') {
+      setActiveComponentId(undefined);
+    }
+  };
 
   return (
     <div className="js-advent-container">
       {!activeComponentId && (
         <div className="js-advent-grid-container">
           {data.map((component) => (
-            <button className="js-advent-item-card" onClick={() => setActiveComponentId(component.id)}>
+            <button
+              className="js-advent-item-card"
+              onClick={() => setActiveComponentId(component.id)}
+              key={component.id}
+            >
               <p>{component.text}</p>
             </button>
           ))}
         </div>
       )}
       {activeComponentId && (
-        <div className="js-advent-active-component-container">
-          {data.find((el) => el.id === activeComponentId)?.component}
-        </div>
+        <>
+          <div className="close-button">
+            <IconButton
+              aria-label="close"
+              size="small"
+              color="secondary"
+              onClick={() => setActiveComponentId(undefined)}
+              tabIndex={0}
+              onKeyDown={(e) => onCloseButtonKeyDown(e)}
+            >
+              <CloseIcon sx={{ color: 'var(--current-details-view-border-color)' }} />
+            </IconButton>
+          </div>
+          <ErrorBoundary fallback={<div className="fallback-message">Oops! Something went wrong.</div>}>
+            <div className="js-advent-active-component-container">
+              <Suspense fallback={<Loader words={loaderWords} />}>
+                {data.find((el) => el.id === activeComponentId)?.component}
+              </Suspense>
+            </div>
+          </ErrorBoundary>
+        </>
       )}
     </div>
   );

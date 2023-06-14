@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import { IconButton, Tooltip } from '@mui/material';
-import InfoIcon from '@mui/icons-material/Info';
 import CloseIcon from '@mui/icons-material/Close';
 import { IMAGES, type ImagesKey } from '../../assets/images/paintings/Images';
 import './details-view.less';
@@ -68,7 +67,6 @@ function DetailsView({ title, author, img, location, locationUrl, description, o
   }, []);
 
   const onCloseButtonKeyDown = (event: React.KeyboardEvent) => {
-    console.log(event);
     if (event.key === 'Enter') {
       onClose();
     }
