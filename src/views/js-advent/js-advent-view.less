@@ -1,5 +1,5 @@
 .js-advent-container {
-  padding: 6vh 2vh 0;
+  padding: 6vh 0;
   width: 100vw;
   height: 100vh;
   background-color: var(--current-background-color);
@@ -16,6 +16,7 @@
     list-style: none;
 
     .js-advent-item-card {
+      z-index: 5;
       height: 12.5rem;
       background-color: var(--current-nav-bar-background-color);
       display: flex;
@@ -38,11 +39,16 @@
     justify-content: center;
     height: 100%;
     overflow: auto;
+
+    .js-advent-component {
+      z-index: 5;
+    }
   }
 
   .close-button {
+    z-index: 5;
     position: absolute;
-    top: 6vh;
+    top: 60px;
     right: 0;
     display: block;
     padding: 3px;
@@ -55,5 +61,6 @@
     align-items: center;
     justify-content: center;
     font-size: 24px;
+    color: var(--current-nav-bar-links-color);
   }
 }

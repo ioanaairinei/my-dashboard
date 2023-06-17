@@ -1,10 +1,11 @@
-import { ReactElement, Suspense, useState } from 'react';
+import { ReactElement, Suspense, useEffect, useRef, useState } from 'react';
 import React from 'react';
 import './js-advent-view.less';
 import { ErrorBoundary } from 'react-error-boundary';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Loader from '../../components/loader/loader';
+import { useSnowfall } from '../../utils/hooks/snowflakes-animation/use-snowfall';
 
 const PriceSlider = React.lazy(() => import('remote/PriceSlider'));
 const KeyPressChecker = React.lazy(() => import('remote/KeyPressChecker'));
@@ -42,6 +43,18 @@ const loaderWords = ['we', 'are', 'loading', 'your', 'component'];
 
 const JSAdvent = () => {
   const [activeComponentId, setActiveComponentId] = useState<number>();
+  const viewRef = useRef<HTMLObjectElement>(null);
+  const { createSnow, removeSnow } = useSnowfall();
+
+  useEffect(() => {
+    const snowContainer: HTMLDivElement = document.createElement('div');
+    snowContainer.className = 'snow-container';
+    viewRef?.current?.append(snowContainer);
+
+    createSnow(40, snowContainer);
+
+    return () => removeSnow(snowContainer);
+  }, [viewRef.current, activeComponentId]);
 
   const onCloseButtonKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Enter') {
@@ -50,7 +63,7 @@ const JSAdvent = () => {
   };
 
   return (
-    <div className="js-advent-container">
+    <div className="js-advent-container" ref={viewRef}>
       {!activeComponentId && (
         <div className="js-advent-grid-container">
           {data.map((component) => (
@@ -81,7 +94,7 @@ const JSAdvent = () => {
           <ErrorBoundary fallback={<div className="fallback-message">Oops! Something went wrong.</div>}>
             <div className="js-advent-active-component-container">
               <Suspense fallback={<Loader words={loaderWords} />}>
-                {data.find((el) => el.id === activeComponentId)?.component}
+                <div className="js-advent-component">{data.find((el) => el.id === activeComponentId)?.component}</div>
               </Suspense>
             </div>
           </ErrorBoundary>
