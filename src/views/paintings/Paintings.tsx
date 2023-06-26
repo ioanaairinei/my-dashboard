@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useCallback, useState } from 'react';
 import { type ImagesKey } from '../../assets/images/paintings/Images';
 import CardsContainer from '../../components/cards-container/CardsContainer';
 import DetailsView from '../../components/details-view/details-view';
@@ -18,14 +18,14 @@ export interface Photo {
 function Paintings() {
   const [activePainting, setActivePainting] = useState<Photo>();
 
-  const onClickPhotoCard = (id: number) => {
+  const onClickPhotoCard = useCallback((id: number) => {
     const activePhoto = photos.find((photo) => photo.id === id);
     setActivePainting(activePhoto);
-  };
+  }, []);
 
-  const onCloseDetailedView = () => {
+  const onCloseDetailedView = useCallback(() => {
     setActivePainting(undefined);
-  };
+  }, []);
 
   return (
     <div className="paintings-container">

@@ -7,7 +7,7 @@ export interface ImageContainerProps extends ImageProps {
   className?: string;
 }
 
-const ImageContainer = (props: ImageContainerProps) => {
+const ImageContainer = React.memo((props: ImageContainerProps) => {
   const ref = useRef<HTMLDivElement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -26,6 +26,6 @@ const ImageContainer = (props: ImageContainerProps) => {
       {isVisible && <Image src={props.src} thumb={props.thumb} altText={props.altText} className={props.className} />}
     </div>
   );
-};
+});
 
 export default ImageContainer;

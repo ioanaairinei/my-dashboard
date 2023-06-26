@@ -1,4 +1,4 @@
-import { KeyboardEventHandler } from 'react';
+import React, { useCallback } from 'react';
 import { IMAGES, IMAGES_THUMBS, type ImagesKey } from '../../assets/images/paintings/Images';
 import ImageContainer from '../image-container/image-container';
 import './photo-card.less';
@@ -11,14 +11,17 @@ export interface PhotoCardProps {
   onClick: (id: number) => void;
 }
 
-function PhotoCard({ id, title, imgSrc, painter, onClick }: PhotoCardProps) {
+const PhotoCard = React.memo(({ id, title, imgSrc, painter, onClick }: PhotoCardProps) => {
   const imageSrc: ImagesKey = imgSrc;
 
-  const handleKeyDown = (event: React.KeyboardEvent) => {
-    if (event.key === 'Enter') {
-      onClick(id);
-    }
-  };
+  const handleKeyDown = useCallback(
+    (event: React.KeyboardEvent) => {
+      if (event.key === 'Enter') {
+        onClick(id);
+      }
+    },
+    [id],
+  );
 
   return (
     <div
@@ -41,6 +44,6 @@ function PhotoCard({ id, title, imgSrc, painter, onClick }: PhotoCardProps) {
       </div>
     </div>
   );
-}
+});
 
 export default PhotoCard;

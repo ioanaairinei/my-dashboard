@@ -18,7 +18,7 @@ const Loader = ({ words }: LoaderProps) => {
       }
 
       setCurrentWord(words[index]);
-    }, 400);
+    }, 300);
 
     return () => clearInterval(interval);
   }, [words]);

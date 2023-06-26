@@ -1,4 +1,4 @@
-import { ReactElement, Suspense, useEffect, useRef, useState } from 'react';
+import { ReactElement, Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import React from 'react';
 import './js-advent-view.less';
 import { ErrorBoundary } from 'react-error-boundary';
@@ -56,11 +56,11 @@ const JSAdvent = () => {
     return () => removeSnow(snowContainer);
   }, [viewRef.current, activeComponentId]);
 
-  const onCloseButtonKeyDown = (event: React.KeyboardEvent) => {
+  const onCloseButtonKeyDown = useCallback((event: React.KeyboardEvent) => {
     if (event.key === 'Enter') {
       setActiveComponentId(undefined);
     }
-  };
+  }, []);
 
   return (
     <div className="js-advent-container" ref={viewRef}>
