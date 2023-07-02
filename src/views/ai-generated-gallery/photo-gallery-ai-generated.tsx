@@ -5,8 +5,9 @@ import { Photo } from '../paintings/Paintings';
 import { IMAGES, type ImagesKey } from '../../assets/images/paintings/Images';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
+import React from 'react';
 
-const PhotoGalleryAIGenerated = () => {
+const PhotoGalleryAIGenerated = React.memo(() => {
   const [activePainting, setActivePainting] = useState<Photo>();
   const photos = useMemo(() => {
     return Object.entries(IMAGES)
@@ -56,6 +57,6 @@ const PhotoGalleryAIGenerated = () => {
       )}
     </div>
   );
-};
+});
 
 export default PhotoGalleryAIGenerated;

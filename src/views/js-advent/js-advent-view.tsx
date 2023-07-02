@@ -41,7 +41,7 @@ const data: ImportedComponentData[] = [
 
 const loaderWords = ['we', 'are', 'loading', 'your', 'component'];
 
-const JSAdvent = () => {
+const JSAdvent = React.memo(() => {
   const [activeComponentId, setActiveComponentId] = useState<number>();
   const viewRef = useRef<HTMLObjectElement>(null);
   const { createSnow, removeSnow } = useSnowfall();
@@ -102,6 +102,6 @@ const JSAdvent = () => {
       )}
     </div>
   );
-};
+});
 
 export default JSAdvent;

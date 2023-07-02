@@ -4,6 +4,7 @@ import CardsContainer from '../../components/cards-container/CardsContainer';
 import DetailsView from '../../components/details-view/details-view';
 import photos from '../../data/photos.json';
 import './paintings.less';
+import React from 'react';
 
 export interface Photo {
   id: number;
@@ -15,7 +16,7 @@ export interface Photo {
   description?: string;
 }
 
-function Paintings() {
+const Paintings = React.memo(() => {
   const [activePainting, setActivePainting] = useState<Photo>();
 
   const onClickPhotoCard = useCallback((id: number) => {
@@ -44,6 +45,6 @@ function Paintings() {
       )}
     </div>
   );
-}
+});
 
 export default Paintings;
